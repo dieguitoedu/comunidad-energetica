@@ -10,11 +10,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center gap-2">
-            <img src="attachment_1.png" alt="Comunidad Energética Vejer" className="w-12 h-12 object-contain" referrerPolicy="no-referrer" />
-            <span className="font-serif text-xl font-bold text-stone-950 tracking-tight">Vejer Energía Social</span>
+            <img src="/comunidad_logo.png" alt="Comunidad Energética Vejer" className="w-12 h-12 object-contain" loading="lazy" />
+            <span className="font-serif text-xl font-bold text-black tracking-tight">Vejer Energía Social</span>
           </div>
           
-          <div className="hidden md:flex items-center gap-8 text-sm font-black text-stone-950 uppercase tracking-widest">
+          <div className="hidden md:flex items-center gap-8 text-sm font-black text-black tracking-widest">
             <a href="#que-es" className="hover:text-primary transition-colors">¿Qué es?</a>
             <a href="#juego" className="hover:text-primary transition-colors">Comunidad Viva</a>
             <a href="#beneficios" className="hover:text-primary transition-colors">Beneficios</a>
@@ -22,7 +22,7 @@ export default function Navbar() {
           </div>
 
           <div className="md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-stone-900">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-black">
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
@@ -33,7 +33,7 @@ export default function Navbar() {
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:hidden bg-primary-light border-b border-primary/10 px-4 py-4 flex flex-col gap-4 text-stone-900 font-bold"
+          className="md:hidden bg-primary-light border-b border-primary/10 px-4 py-4 flex flex-col gap-4 text-black font-bold"
         >
           <a href="#que-es" onClick={() => setIsOpen(false)}>¿Qué es?</a>
           <a href="#juego" onClick={() => setIsOpen(false)}>Comunidad Viva</a>

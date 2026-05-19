@@ -53,8 +53,8 @@ export default function EnergyGame() {
     <section id="juego" className="py-24 bg-primary-light">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-serif text-stone-950 mb-4 font-bold">¿Cómo funciona la Comunidad?</h2>
-          <p className="text-stone-900 max-w-2xl mx-auto font-bold">
+          <h2 className="text-4xl font-serif text-black mb-4 font-bold">¿Cómo funciona la Comunidad?</h2>
+          <p className="text-stone-900 max-w-2xl mx-auto font-black">
             Observa cómo fluye la energía solar por nuestro pueblo blanco. Un proyecto técnico hecho realidad por el profesorado de IES La Janda.
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function EnergyGame() {
                   )}
                   
                   <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 whitespace-nowrap">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-stone-900">{entity.name}</span>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-black">{entity.name}</span>
                   </div>
                 </div>
               </motion.div>
@@ -127,7 +127,7 @@ export default function EnergyGame() {
                 <p className="text-xs font-bold text-primary-dark mb-1 uppercase tracking-tighter flex items-center gap-1">
                   <Info className="w-3 h-3" /> Estado Actual
                 </p>
-                <p className="text-sm text-stone-950 font-black leading-snug">
+                <p className="text-sm text-black font-black leading-snug">
                   {steps[activeStep].desc}
                 </p>
               </div>
@@ -141,8 +141,8 @@ export default function EnergyGame() {
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-2xl font-serif text-stone-950 font-black">Uniendo puntos</h3>
-            <p className="text-stone-900 text-sm leading-relaxed font-bold">
+            <h3 className="text-2xl font-serif text-black font-black">Uniendo puntos</h3>
+            <p className="text-black text-sm leading-relaxed font-bold">
               La comunidad funciona mediante una red virtual. No necesitas cables nuevos; usamos la red existente para asignar los excedentes de las placas solares a los miembros que los necesitan.
             </p>
             <ul className="space-y-4">
@@ -151,8 +151,8 @@ export default function EnergyGame() {
                   <span className="text-[10px] font-bold text-primary-dark">01</span>
                 </div>
                 <div>
-                  <h4 className="text-sm font-black text-stone-950 uppercase">Producción Local</h4>
-                  <p className="text-xs text-stone-900 font-bold">Instalación en la cubierta del IES La Janda.</p>
+                  <h4 className="text-sm font-black text-black uppercase">Producción Local</h4>
+                  <p className="text-xs text-black font-bold">Instalación en la cubierta del IES La Janda.</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -160,8 +160,8 @@ export default function EnergyGame() {
                   <span className="text-[10px] font-bold text-blue-700">02</span>
                 </div>
                 <div>
-                  <h4 className="text-sm font-black text-stone-950 uppercase">Reparto Inteligente</h4>
-                  <p className="text-xs text-stone-900 font-bold">Se prioriza a familias vulnerables y asociaciones.</p>
+                  <h4 className="text-sm font-black text-black uppercase">Reparto Inteligente</h4>
+                  <p className="text-xs text-black font-bold">Se prioriza a familias vulnerables y asociaciones.</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -169,8 +169,8 @@ export default function EnergyGame() {
                   <span className="text-[10px] font-bold text-emerald-700">03</span>
                 </div>
                 <div>
-                  <h4 className="text-sm font-black text-stone-950 uppercase">Impacto Social</h4>
-                  <p className="text-xs text-stone-900 font-bold">Menos CO2 y facturas más bajas para el pueblo.</p>
+                  <h4 className="text-sm font-black text-black uppercase">Impacto Social</h4>
+                  <p className="text-xs text-black font-bold">Menos CO2 y facturas más bajas para el pueblo.</p>
                 </div>
               </li>
             </ul>

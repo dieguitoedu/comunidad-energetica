@@ -40,8 +40,8 @@ export default function InfoGrid() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-1">
-            <h2 className="text-4xl font-serif text-stone-950 mb-6 leading-tight font-bold">Nuestros <br />Objetivos.</h2>
-            <p className="text-stone-950 mb-8 leading-relaxed font-black">
+            <h2 className="text-4xl font-serif text-black mb-6 leading-tight font-bold">Nuestros <br />Objetivos.</h2>
+            <p className="text-black mb-8 leading-relaxed font-black">
               Trabajamos para que Vejer sea un referente en soberanía energética y solidaridad vecinal. El proyecto nace como algo pequeño pero con vocación de crecer.
             </p>
             <div className="p-6 bg-primary-light rounded-3xl border border-primary/20">
@@ -61,8 +61,8 @@ export default function InfoGrid() {
                 <div className="w-12 h-12 rounded-2xl bg-white flex items-center justify-center text-primary mb-6 shadow-sm border border-primary/5">
                   {obj.icon}
                 </div>
-                <h3 className="text-lg font-black text-stone-950 uppercase tracking-tight mb-2">{obj.title}</h3>
-                <p className="text-sm text-stone-900 leading-relaxed font-bold">{obj.desc}</p>
+                <h3 className="text-lg font-black text-black uppercase tracking-tight mb-2">{obj.title}</h3>
+                <p className="text-sm text-black leading-relaxed font-black">{obj.desc}</p>
               </motion.div>
             ))}
           </div>

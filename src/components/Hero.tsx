@@ -11,23 +11,23 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="attachment_1.png" alt="Logo Comunidad" className="w-32 h-32 object-contain mb-8" referrerPolicy="no-referrer" />
+            <img src="/comunidad_logo.png" alt="Logo Comunidad" className="w-32 h-32 object-contain mb-8" loading="lazy" />
             <span className="inline-block py-1 px-3 bg-primary-muted text-primary-dark text-xs font-black rounded-full mb-6 uppercase tracking-widest">
               Proyecto IES La Janda
             </span>
-            <h1 className="text-5xl lg:text-7xl font-serif text-stone-950 leading-tight mb-6">
+            <h1 className="text-5xl lg:text-7xl font-serif text-black leading-tight mb-6 font-bold">
               Energía <br />
               <span className="text-primary italic">para todos</span> <br />
               en Vejer.
             </h1>
-            <p className="text-lg text-stone-950 mb-8 max-w-lg leading-relaxed font-bold">
+            <p className="text-lg text-black mb-8 max-w-lg leading-relaxed font-black">
               La Comunidad Energética Social de Vejer es una iniciativa local, sostenible y abierta. Producimos, compartimos y gestionamos nuestra propia energía limpia.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#juego" className="px-8 py-4 bg-primary text-white rounded-full font-bold flex items-center gap-2 hover:bg-primary-dark transition-all group shadow-md">
                 Ver cómo funciona <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
-              <a href="#contacto" className="px-8 py-4 border border-primary/20 text-stone-900 bg-white/50 rounded-full font-bold hover:bg-white transition-all">
+              <a href="#contacto" className="px-8 py-4 border border-primary/20 text-black bg-white/50 rounded-full font-bold hover:bg-white transition-all">
                 Saber más
               </a>
             </div>
@@ -41,10 +41,10 @@ export default function Hero() {
           >
             <div className="aspect-[4/3] rounded-[40px] overflow-hidden shadow-2xl relative border-8 border-white">
               <img 
-                src="https://images.unsplash.com/photo-1508514177221-18075743bdf4?auto=format&fit=crop&q=80&w=1200" 
-                alt="Solar Panels in Vejer" 
+                src="https://images.unsplash.com/photo-1548544149-4835e62ee5b3?auto=format&fit=crop&q=80&w=1200" 
+                alt="Panoramic of Vejer de la Frontera" 
                 className="object-cover w-full h-full"
-                referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 to-transparent" />
               <div className="absolute bottom-8 left-8 p-6 bg-white/90 backdrop-blur rounded-2xl shadow-xl max-w-xs">
@@ -52,7 +52,7 @@ export default function Hero() {
                   <Power className="w-8 h-8" />
                   <div className="h-0.5 flex-1 bg-primary-light" />
                 </div>
-                <p className="text-stone-800 font-serif italic text-lg whitespace-pre-line">
+                <p className="text-black font-serif italic text-lg whitespace-pre-line font-bold">
                   "No es necesario tener placas solares para ahorrar."
                 </p>
               </div>

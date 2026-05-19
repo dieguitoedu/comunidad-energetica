@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-primary-light selection:bg-primary-muted selection:text-primary-dark">
+    <div className="min-h-screen bg-primary-light selection:bg-primary-muted selection:text-black">
       <Navbar />
       <main>
         <Hero />
@@ -23,20 +23,20 @@ export default function App() {
             <div className="flex flex-col lg:flex-row gap-16 items-center">
               <div className="flex-1 space-y-6">
                 <span className="text-[10px] font-bold uppercase tracking-[0.5em] text-primary">Introducción</span>
-                <h2 className="text-4xl lg:text-5xl font-serif text-stone-900 leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-serif text-black leading-tight font-bold">
                   Un proyecto de todos, para el pueblo de Vejer.
                 </h2>
                 <div className="h-1 w-20 bg-primary rounded-full" />
-                <p className="text-stone-900 leading-relaxed text-lg font-medium">
+                <p className="text-black leading-relaxed text-lg font-bold">
                   Una comunidad energética es un grupo de personas, empresas y entidades locales que se unen para producir, compartir y gestionar su propio consumo de energía de forma sostenible.
                 </p>
                 <div className="grid grid-cols-2 gap-8 pt-6">
                   <div>
-                    <span className="block text-3xl font-serif text-stone-950 mb-1">Impacto</span>
+                    <span className="block text-3xl font-serif text-black mb-1">Impacto</span>
                     <p className="text-sm text-stone-900 font-bold">Instalación pionera sobre la cubierta del IES La Janda.</p>
                   </div>
                   <div>
-                    <span className="block text-3xl font-serif text-stone-950 mb-1">Social</span>
+                    <span className="block text-3xl font-serif text-black mb-1">Social</span>
                     <p className="text-sm text-stone-900 font-bold">Destinada a familias en situación de vulnerabilidad.</p>
                   </div>
                 </div>
@@ -44,9 +44,10 @@ export default function App() {
               <div className="flex-1">
                 <img 
                   src="https://images.unsplash.com/photo-1509391366360-fe5bb58583bb?auto=format&fit=crop&q=80&w=1200" 
-                  alt="Solar Panels" 
-                  className="rounded-[40px] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700"
+                  alt="Solar Panels installation" 
+                  className="rounded-[40px] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700 border-4 border-white"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </div>
             </div>

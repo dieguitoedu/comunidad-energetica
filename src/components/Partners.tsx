@@ -9,16 +9,16 @@ export default function Partners() {
   return (
     <section className="py-20 bg-white border-y border-stone-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p className="text-center text-[10px] font-black uppercase tracking-[0.3em] text-primary-dark mb-12">Impulsado por e instituciones colaboradoras</p>
+        <p className="text-center text-[10px] font-black uppercase tracking-[0.3em] text-black mb-12">Impulsado por e instituciones colaboradoras</p>
         <div className="flex flex-wrap justify-center items-center gap-x-16 gap-y-12 transition-all duration-700">
           <div className="flex flex-col items-center gap-2">
-            <img src="attachment_2.png" alt="IES La Janda" className="h-24 object-contain" referrerPolicy="no-referrer" />
+            <img src="/ies_la_janda_logo.png" alt="IES La Janda" className="h-24 object-contain grayscale hover:grayscale-0 transition-all" loading="lazy" />
           </div>
-          <div className="h-8 flex items-center justify-center font-black text-stone-900/60 text-sm whitespace-nowrap grayscale">MINISTERIO EDUCACIÓN</div>
-          <div className="h-8 flex items-center justify-center font-black text-stone-900/60 text-sm whitespace-nowrap text-blue-800/60 grayscale">JUNTA DE ANDALUCIA</div>
-          <div className="h-8 flex items-center justify-center font-bold text-stone-800/40 text-sm whitespace-nowrap uppercase grayscale">Diputación de Cádiz</div>
-          <div className="h-8 flex items-center justify-center font-bold text-stone-800/40 text-sm whitespace-nowrap text-emerald-800/40 grayscale uppercase">OTC CÁDIZ</div>
-          <div className="h-8 flex items-center justify-center font-bold text-stone-800/40 text-sm whitespace-nowrap grayscale">MONELEG</div>
+          <div className="h-8 flex items-center justify-center font-black text-black/80 text-sm whitespace-nowrap grayscale">MINISTERIO EDUCACIÓN</div>
+          <div className="h-8 flex items-center justify-center font-black text-black/80 text-sm whitespace-nowrap text-blue-900/80 grayscale">JUNTA DE ANDALUCIA</div>
+          <div className="h-8 flex items-center justify-center font-bold text-black/80 text-sm whitespace-nowrap uppercase grayscale">Diputación de Cádiz</div>
+          <div className="h-8 flex items-center justify-center font-bold text-black/80 text-sm whitespace-nowrap text-emerald-900/80 grayscale uppercase">OTC CÁDIZ</div>
+          <div className="h-8 flex items-center justify-center font-bold text-black/80 text-sm whitespace-nowrap grayscale">MONELEG</div>
         </div>
       </div>
     </section>
