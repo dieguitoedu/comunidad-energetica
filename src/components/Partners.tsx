@@ -12,7 +12,7 @@ export default function Partners() {
         <p className="text-center text-[10px] font-black uppercase tracking-[0.3em] text-black mb-12">Impulsado por e instituciones colaboradoras</p>
         <div className="flex flex-wrap justify-center items-center gap-x-16 gap-y-12 transition-all duration-700">
           <div className="flex flex-col items-center gap-2">
-            <img src="/ies_la_janda_logo.png" alt="IES La Janda" className="h-24 object-contain grayscale hover:grayscale-0 transition-all" loading="lazy" />
+            <img src="./ies_la_janda_logo.png" alt="IES La Janda" className="h-24 object-contain grayscale hover:grayscale-0 transition-all" loading="lazy" />
           </div>
           <div className="h-8 flex items-center justify-center font-black text-black/80 text-sm whitespace-nowrap grayscale">MINISTERIO EDUCACIÓN</div>
           <div className="h-8 flex items-center justify-center font-black text-black/80 text-sm whitespace-nowrap text-blue-900/80 grayscale">JUNTA DE ANDALUCIA</div>

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <img src="/comunidad_logo.png" alt="Logo" className="w-10 h-10 object-contain" loading="lazy" />
+            <img src="./comunidad_logo.png" alt="Logo" className="w-10 h-10 object-contain" loading="lazy" />
             <span className="font-serif text-lg font-bold text-black">Vejer Energía Social</span>
           </div>
           

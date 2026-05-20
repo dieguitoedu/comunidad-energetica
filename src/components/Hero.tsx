@@ -11,7 +11,7 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img src="/comunidad_logo.png" alt="Logo Comunidad" className="w-32 h-32 object-contain mb-8" loading="lazy" />
+            <img src="./comunidad_logo.png" alt="Logo Comunidad" className="w-32 h-32 object-contain mb-8" loading="lazy" />
             <span className="inline-block py-1 px-3 bg-primary-muted text-primary-dark text-xs font-black rounded-full mb-6 uppercase tracking-widest">
               Proyecto IES La Janda
             </span>
@@ -44,6 +44,7 @@ export default function Hero() {
                 src="https://images.unsplash.com/photo-1548544149-4835e62ee5b3?auto=format&fit=crop&q=80&w=1200" 
                 alt="Panoramic of Vejer de la Frontera" 
                 className="object-cover w-full h-full"
+                referrerPolicy="no-referrer"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 to-transparent" />
