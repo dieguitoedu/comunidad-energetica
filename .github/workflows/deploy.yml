@@ -1,4 +1,3 @@
-# Workflow oficial para compilar y desplegar automáticamente en GitHub Pages sin ramas secundarias
 name: Deploy to GitHub Pages
 
 on:
