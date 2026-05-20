@@ -1,0 +1,40 @@
+# Workflow para compilar y desplegar la web estática en GitHub Pages
+name: Deploy to GitHub Pages
+
+on:
+  # Se ejecuta automáticamente al subir cambios a la rama main (o master)
+  push:
+    branches:
+      - main
+      - master
+  # Permite lanzar la acción manualmente desde la pestaña "Actions" en GitHub
+  workflow_dispatch:
+
+# Permisos necesarios para escribir en GitHub Pages
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código 🛎️
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js ⚙️
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Instalar dependencias 📦
+        run: npm ci
+
+      - name: Compilar el proyecto estático 🏗️
+        run: npm run build
+
+      - name: Desplegar a GitHub Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # Directorio donde Vite genera los archivos compilados
+          branch: gh-pages # Rama destino que servirá la web estática
