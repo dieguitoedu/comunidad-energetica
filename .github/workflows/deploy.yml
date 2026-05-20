@@ -1,4 +1,4 @@
-# Workflow oficial para compilar y desplegar automáticamente en GitHub Pages sin ramas secundarias
+# Workflow para compilar y desplegar automáticamente en GitHub Pages sin requerir archivos de bloqueo
 name: Deploy to GitHub Pages
 
 on:
@@ -33,6 +33,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          # Eliminamos 'cache: npm' para que no pida obligatoriamente el archivo de bloqueo
 
       - name: Instalar dependencias 📦
         run: npm install
