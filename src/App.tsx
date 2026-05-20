@@ -43,9 +43,9 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=1200" 
-                  alt="Solar Panels installation" 
-                  className="rounded-[40px] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700 border-4 border-white"
+                  src="https://images.unsplash.com/photo-1548544149-4835e62ee5b3?auto=format&fit=crop&q=80&w=1200" 
+                  alt="Panorámica de Vejer de la Frontera" 
+                  className="rounded-[40px] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700 border-4 border-white h-96 w-full object-cover"
                   referrerPolicy="no-referrer"
                   loading="lazy"
                 />
