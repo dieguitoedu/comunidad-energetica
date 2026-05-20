@@ -1,0 +1,8 @@
+{
+  "name": "Comunidad Energética Vejer",
+  "description": "Portal informativo de la Comunidad Energética Social de Vejer de la Frontera, impulsado por el IES La Janda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
