@@ -16,7 +16,7 @@ export default function Hero() {
           >
             {/* Logo and Badge */}
             <div className="flex flex-col items-start gap-4">
-              <img src="./comunidad_logo.png" alt="Logo Comunidad" className="w-24 h-24 md:w-28 md:h-28 object-contain" loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}comunidad_logo.png`} alt="Logo Comunidad" className="w-24 h-24 md:w-28 md:h-28 object-contain" loading="lazy" />
               <span className="inline-block py-1 px-3 bg-primary-muted text-primary-dark text-xs font-black rounded-full uppercase tracking-widest">
                 Proyecto IES La Janda
               </span>
